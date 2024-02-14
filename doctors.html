@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Zara Therapy  - doctors</title>
+  <meta name="title" content="Doclab - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/ZARA_LOGO.png" type="image/svg+xml">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="font-size: larger;">
+        <img src="./assets/images/ZARA_LOGO_with_Text.png" style=" width: max(12vw,100px);"alt="Zara">
+      </a>
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/ZARA_LOGO_with_Text.png" width="136" height="46" alt="Doclab home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link title-md">Home</a>
+          </li>
+   
+          <li class="navbar-item">
+            <a href="aboutus.html" class="navbar-link title-md">About Us</a>
+          </li>   
+
+          <li class="navbar-item">
+            <a href="service.html" class="navbar-link title-md">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="product.html" class="navbar-link title-md">Product</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="doctors.html" class="navbar-link title-md">Doctors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="conntact.html" class="navbar-link title-md">Contact Us</a>
+          </li>
+          <li class="navbar-item">
+            <a href="appointment.html" class="navbar-link title-md" style="background-color: hsl(182, 100%, 35%); border-radius: 6px;">Get Appointment</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+<section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="doctors">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-subtitle has-before" data-reveal="left">Top World Doctors</p>
+      <h1 class="headline-lg hero-title" data-reveal="left">
+        Meet Our Therapists.
+      </h1>
+      <div class="hero-card" data-reveal="left">
+        <p class="title-lg card-text">
+          Reach out to us for inquiries or to schedule an appointment with our experienced therapists.
+        </p>
+        <div class="wrapper">
+          <div class="input-wrapper title-lg">
+            <input type="text" name="name" placeholder="Your Name" class="input-field">
+          </div>
+          <button class="btn has-before" style="width: 200px; height: 80px;">
+            <ion-icon name="send"></ion-icon>
+            <span class="span title-md">Send Message</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <figure class="hero-banner" data-reveal="right">
+      <img src="./assets/images/doctor5-removebg-preview.png" width="519" height="517" loading="eager" alt="contact hero banner" style="width: 600px; height: 500px;">
+    </figure>
+  </div>
+</section>
+
+<section class="doctors" id="doctors">
+
+  <h1 class="heading">our<span>therapists</span></h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="./assets/images/doc-1.jpg" alt="">
+          <h3>Dr Nalini Mahajan</h3>
+          <span>Massage Therapist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./assets/images/doc-2.jpg" alt="">
+          <h3>Dr. Shree kumar</h3>
+          <span>Physical Therapist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./assets/images/doc-3.jpg" alt="">
+          <h3>Dr Uday Devgan</h3>
+          <span>Acupuncturist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./assets/images/doc-4.jpg" alt="">
+          <h3>Dr Vijay Kumar</h3>
+          <span>Holistic Therapist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./assets/images/doc-5.jpg" alt="">
+          <h3>Dr. Suresh Isawe</h3>
+          <span>Chiropractor</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./assets/images/doc-6.jpg" alt="">
+          <h3>Dr Mukul Varma</h3>
+          <span>Neurologist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./assets/images/doctor4.avif" alt="">
+          <h3>Dr Zahid Rahi</h3>
+          <span>Mental Health Therapist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./assets/images/doctor3.avif" alt="">
+          <h3>Dr Alia Varma</h3>
+          <span>Art Therapist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./assets/images/doctor2.avif" alt="">
+          <h3>Dr Raj Kumar</h3>
+          <span>Psychiatrist</span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./assets/images/doctor1.avif" alt="">
+          <h3>Dr Zarah Khan</h3>
+          <span>Family Therapist </span>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+      <!-- 
+        - #LISTING
+      -->
+
+      <section class="section listing" aria-labelledby="listing-label">
+        <div class="container">
+          <ul class="grid-list">
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Therapists Directory</p>
+              <h2 class="headline-md" data-reveal="left">Explore Our Therapists</h2>
+            </li>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/message1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Massage Therapist</h3>
+                  <p class="card-text">Specializes in various massage techniques for relaxation and pain relief.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/Physical Therapist.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Physical Therapist</h3>
+                  <p class="card-text">Expert in rehabilitation exercises and restoring mobility after injuries.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/Acupuncture.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Acupuncturist</h3>
+                  <p class="card-text">Specializes in traditional Chinese medicine techniques for pain management and wellness.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/Aromatherapy.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Aromatherapist</h3>
+                  <p class="card-text">Utilizes essential oils and aromatherapy techniques to promote relaxation and improve mood.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/Holistic Therapist.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Holistic Therapist</h3>
+                  <p class="card-text">Employs holistic approach to wellness,integrating mind & body for comprehensive healing.</p>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+                <div class="card-icon">
+                  <img src="./assets/images/Chiropractor.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+                <div>
+                  <h3 class="headline-sm card-title">Chiropractor</h3>
+                  <p class="card-text">Specializes in spinal adjustments and manipulations to alleviate pain and improve mobility.</p>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+            Therapist Insights
+          </p>
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
+          <ul class="grid-list">
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span class="span">By Therapist</span>
+                  </div>
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+                    <span class="span">Health Tips</span>
+                  </div>
+                </div>
+                <h3 class="headline-sm card-title">The Importance of Self-Care for Therapists</h3>
+                <time class="title-sm date" datetime="09-02-2024">09-02-2024</time>
+                <p class="card-text">Exploring strategies for maintaining physical and emotional well-being while providing quality care to clients.</p>
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span class="span">By Therapist</span>
+                  </div>
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+                    <span class="span">Wellness Tips</span>
+                  </div>
+                </div>
+                <h3 class="headline-sm card-title">Mindfulness Techniques for Therapists</h3>
+                <time class="title-sm date" datetime="09-02-2024">09-02-2024</time>
+                <p class="card-text">Exploring mindfulness practices to enhance focus, reduce stress, and improve client interactions.</p>
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span class="span">By Therapist</span>
+                  </div>
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+                    <span class="span">Prof-Dev</span>
+                  </div>
+                </div>
+                <h3 class="headline-sm card-title">Navigating Boundaries in Therapeutic Relationships</h3>
+                <time class="title-sm date" datetime="2024-02-09">09-02-2024</time>
+                <p class="card-text">Exploring ethical considerations and practical strategies for establishing and maintaining boundaries with clients.</p>
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+      <div class="section footer-top">
+        <div class="footer-brand" data-reveal="bottom">
+          <a href="#" class="logo">
+            <img src="./assets/images/ZARA_LOGO_with_Text.png" width="136" height="46" loading="lazy" alt="Therapist Home">
+          </a>
+          <ul class="contact-list has-after">
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+              <div>
+                <p>
+                  Main Email : <a href="mailto:contact@therapy.com" class="contact-link">contact@&shy;therapy.com</a>
+                </p>
+                <p>
+                  Inquiries : <a href="mailto:Info@therapy.com" class="contact-link">Info@therapy.com</a>
+                </p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div>
+                <p>
+                  Office Telephone : <a href="tel:0029129102320" class="contact-link">0029129102320</a>
+                </p>
+                <p>
+                  Mobile : <a href="tel:000232439493" class="contact-link">000 2324 39493</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list" data-reveal="bottom">
+          <p class="headline-sm footer-list-title">About Us</p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum tortor quis arcu varius, sit amet tempus urna vestibulum. Integer vitae magna pretium, consequat velit nec.
+          </p>
+          <address class="address">
+            <ion-icon name="map-outline"></ion-icon>
+            <span class="text">
+              1234 Therapy Lane <br>
+              City, State 12345
+            </span>
+          </address>
+        </div>
+        <ul class="footer-list" data-reveal="bottom">
+          <li>
+            <p class="headline-sm footer-list-title">Services</p>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Counseling</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Therapy Sessions</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Workshops</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Group Therapy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Teletherapy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Mindfulness Training</a>
+          </li>
+        </ul>
+        <ul class="footer-list" data-reveal="bottom">
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Terms of Service</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Client Testimonials</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">FAQs</a>
+          </li>
+        </ul>
+        <div class="footer-list" data-reveal="bottom">
+          <p class="headline-sm footer-list-title">Subscribe</p>
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+            <button type="submit" class="btn has-before title-md">Subscribe</button>
+          </form>
+          <p class="text">
+            Get the latest updates via email. Any time you may unsubscribe.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text copyright">
+          &copy; Therapist Hub 2022 | All Rights Reserved by YourTherapyPractice
+        </p>
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

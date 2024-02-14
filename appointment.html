@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Zara Therapy  - appointment</title>
+  <meta name="title" content="Doclab - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/ZARA_LOGO.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="font-size: larger;">
+        <img src="./assets/images/ZARA_LOGO_with_Text.png" style=" width: max(12vw,100px);"alt="Zara">
+      </a>
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/ZARA_LOGO_with_Text.png" width="136" height="46" alt="Doclab home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link title-md">Home</a>
+          </li>
+   
+          <li class="navbar-item">
+            <a href="aboutus.html" class="navbar-link title-md">About Us</a>
+          </li>   
+
+          <li class="navbar-item">
+            <a href="service.html" class="navbar-link title-md">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="product.html" class="navbar-link title-md">Product</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="doctors.html" class="navbar-link title-md">Doctors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="conntact.html" class="navbar-link title-md">Contact Us</a>
+          </li>
+          <li class="navbar-item">
+            <a href="appointment.html" class="navbar-link title-md" style="background-color: hsl(182, 100%, 35%); border-radius: 6px;">Get Appointment</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Welcome To  Zara Therapy</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Get Your Appointment<br>
+            </h1>
+
+            <div class="hero-card" data-reveal="left">
+
+              <p class="title-lg card-text">
+                Search doctors. clinics. hospitals. etc.
+              </p>
+
+              <div class="wrapper">
+
+                <div class="input-wrapper title-lg">
+                  <input type="text" name="location" placeholder="Locations" class="input-field">
+
+                  <ion-icon name="location"></ion-icon>
+                </div>
+
+                <button class="btn has-before">
+                  <ion-icon name="search"></ion-icon>
+
+                  <span class="span title-md">Find Now</span>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="./assets/images/appoinment-removebg-preview.png" width="590" height="517" loading="eager" alt="hero banner" style="padding-left: 250px;"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+      
+
+      <!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">Appointment</h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="./assets/images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <h3>book appointment</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="number" placeholder="your number" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="date" class="box">
+            <input type="submit" value="book now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 class="heading"><span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./assets/images/pic-1.png" alt="1">
+            <h3>Ravi Goel</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">Dr Uday Devgan ophthalmologist treated my mother very well. 
+                He gave the correct diagnosis. And explained to us in detail. 
+                The whole operation process and insurance process is smooth.</p>
+        </div>
+
+        <div class="box">
+            <img src="./assets/images/pic-2.png" alt="1">
+            <h3>Divya Gupta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">It's very well mannered staff good coordination with patients. 
+                Dr Shree Kumar Reddy assisted very well and took good care of patients. 
+                Overall experience is satisfactory.</p>
+        </div>
+
+        <div class="box">
+            <img src="./assets/images/pic-3.png" alt="3">
+            <h3>Ramesh Jain</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">Since long i was suffering from blood in cough but no doctor except Dr.Vijay kumar chennam chetty identified my problem and started the diagnosis. 
+              </p>
+        </div>
+
+    </div>
+
+</section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+      <div class="section footer-top">
+        <div class="footer-brand" data-reveal="bottom">
+          <a href="#" class="logo">
+            <img src="./assets/images/ZARA_LOGO_with_Text.png" width="136" height="46" loading="lazy" alt="Therapist Home">
+          </a>
+          <ul class="contact-list has-after">
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+              <div>
+                <p>
+                  Main Email : <a href="mailto:contact@therapy.com" class="contact-link">contact@&shy;therapy.com</a>
+                </p>
+                <p>
+                  Inquiries : <a href="mailto:Info@therapy.com" class="contact-link">Info@therapy.com</a>
+                </p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div>
+                <p>
+                  Office Telephone : <a href="tel:0029129102320" class="contact-link">0029129102320</a>
+                </p>
+                <p>
+                  Mobile : <a href="tel:000232439493" class="contact-link">000 2324 39493</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list" data-reveal="bottom">
+          <p class="headline-sm footer-list-title">About Us</p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum tortor quis arcu varius, sit amet tempus urna vestibulum. Integer vitae magna pretium, consequat velit nec.
+          </p>
+          <address class="address">
+            <ion-icon name="map-outline"></ion-icon>
+            <span class="text">
+              1234 Therapy Lane <br>
+              City, State 12345
+            </span>
+          </address>
+        </div>
+        <ul class="footer-list" data-reveal="bottom">
+          <li>
+            <p class="headline-sm footer-list-title">Services</p>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Counseling</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Therapy Sessions</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Workshops</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Group Therapy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Teletherapy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Mindfulness Training</a>
+          </li>
+        </ul>
+        <ul class="footer-list" data-reveal="bottom">
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Terms of Service</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">Client Testimonials</a>
+          </li>
+          <li>
+            <a href="#" class="text footer-link">FAQs</a>
+          </li>
+        </ul>
+        <div class="footer-list" data-reveal="bottom">
+          <p class="headline-sm footer-list-title">Subscribe</p>
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+            <button type="submit" class="btn has-before title-md">Subscribe</button>
+          </form>
+          <p class="text">
+            Get the latest updates via email. Any time you may unsubscribe.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="text copyright">
+          &copy; Therapist Hub 2022 | All Rights Reserved by YourTherapyPractice
+        </p>
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
