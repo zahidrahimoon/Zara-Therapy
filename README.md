@@ -25,8 +25,8 @@ Zara Therapy Clinic needs a website to effectively communicate its services and 
 
 ## Website Features
 
-1. **Home Page**: Includes sections with a suitable logo and header, showcasing images of therapies/demo sessions.
-2. **Navigation**: Links to navigate through different categories for information.
+1. **Home Page** : Includes sections with a suitable logo and header, showcasing images of therapies/demo sessions.
+2. **Navigation** : Links to navigate through different categories for information.
 3. **Menu**: Displays options for a brief introduction about therapists, contact details, and other relevant information.
 4. **Products and Services**: Lists related products and services, including essential oils, lotions, and accessories.
 5. **Services Categories**: Categorizes various services based on technique/medical aid/beauty aids.
