@@ -21,7 +21,7 @@ Zara Therapy Clinic needs a website to effectively communicate its services and 
 ## Hardware/Software Requirements
 
 - **Hardware**: A minimum computer system with a Pentium 166 or better and 64 Megabytes of RAM or better.
-- **Software**: Notepad/HTML editor/CoffeeCup, Angular/Angular JS/React/BootStrap, Dreamweaver/Figma, MS IE/Chrome/FireFox/Netscape/MS Edge.
+- **Software**: Notepad/HTML editor/CoffeeCup, Angular/Angular JS/React/BootStrap, Dreamweaver/Figma, MS IE/Chrome/FireFox/Netscape/MS Edge...
 
 ## Website Features
 
