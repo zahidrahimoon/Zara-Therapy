@@ -10,7 +10,7 @@ Our goal is to create a professional website for Zara Therapy Clinic that showca
 
 ## Problem Statement
 
-Zara Therapy Clinic needs a website to effectively communicate its services and attract potential clients. The website should include sections for therapy descriptions, therapist profiles, contact information, and testimonials.
+Zara Therapy Clinic needs a website to effectively communicate its services and attract potential clients. The website should include sections for therapy descriptions, therapist profiles, contact information, and testimonials...
 
 ## Technologies Used
 
