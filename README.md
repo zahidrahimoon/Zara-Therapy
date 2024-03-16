@@ -44,6 +44,6 @@ Check out the live version of the website [here](https://zaratheraphy.netlify.ap
 
 ## Conclusion
 
-The Zara Therapy Clinic website will be a comprehensive platform for showcasing our services and attracting new clients. By implementing the features mentioned above, the website will provide a user-friendly experience and help expand our online presence.
+The Zara Therapy Clinic website will be a comprehensive platform for showcasing our services and attracting new clients. By implementing the features mentioned above, the website will provide a user-friendly experience and help expand our online presence...
 
 
