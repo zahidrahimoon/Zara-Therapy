@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Zara Therapy Clinic website project! This README provides an overview of our development process and the features of our fully responsive website...
+Welcome to the Zara Therapy Clinic website project! This README provides an overview of our development process and the features of our fully responsive website.
 
 ## Objectives
 
